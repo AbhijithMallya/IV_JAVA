@@ -6,9 +6,9 @@
 import java.util.*;
 
 class Customer {
-    String Name , DOB ;
-    void read()
-    {
+    String Name, DOB;
+
+    void read() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your Name :: ");
         Name = sc.next();
@@ -16,14 +16,13 @@ class Customer {
         DOB = sc.next();
 
     }
-    void display()
-    {
-        StringTokenizer st = new StringTokenizer(DOB,"/");
-        
-        System.out.print("OUTPUT --> "+Name);
-        while(st.hasMoreTokens())
-        {
-            System.out.print(","+st.nextToken());
+
+    void display() {
+        StringTokenizer st = new StringTokenizer(DOB, "/");
+
+        System.out.print("OUTPUT --> " + Name);
+        while (st.hasMoreTokens()) {
+            System.out.print("," + st.nextToken());
         }
     }
 }
