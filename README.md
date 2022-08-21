@@ -1,1 +1,1 @@
-<img src = "https://github.com/AbhijithMallya/IV_JAVA/Lab_Manual.pdf" >
+<embed src = "Lab_Manual.pdf" width="500" height="375">
