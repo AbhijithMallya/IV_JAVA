@@ -14,7 +14,7 @@ class Dijkstra {
     }
     d[s] = 0;
 
-    for (i = 0; i <= n; i++) {
+    for (i = 1; i <= n; i++) {
       min = 99;
       for (j = 1; j <= n; j++) {
         if (d[j] < min && visited[j] == 0) {
